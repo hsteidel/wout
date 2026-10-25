@@ -177,10 +177,10 @@ A print palette: off-white stock, black ink, one spot color, silver hardware, an
 - **On Ultramarine / Muted** (on-ultramarine, on-ultramarine-mute): text and secondary captions on ultramarine fills.
 
 ### Neutral
-- **Race Black** (race-black): all body ink, the 2px edges on bibs, buttons and inputs, the masthead and footer rules, the selected non-today stage, the banner and save bar grounds.
+- **Race Black** (race-black): all body ink, the 2px edges on bibs, buttons and inputs, the masthead rule, the selected non-today stage, the banner and save bar grounds.
 - **Tyvek** (tyvek): the page ground; also fills the pin-hole centers so they read as punched through the sheet.
 - **Sheet White** (sheet-white): bib sheets, inputs, the sign-in panel and the version drawer.
-- **Mute Graphite** (mute-graphite): muscle groups, rest, meta lines, footer text, the rest-day numeral.
+- **Mute Graphite** (mute-graphite): muscle groups, rest, meta lines, the rest-day numeral.
 - **Hairline** (hairline): the 1px rules between start-list rows and history items.
 - **Pin Silver** (pin-silver): pin-hole rings, the dashed add-exercise line, captions on the selected ink bib and in the save bar, the scrollbar thumb.
 
@@ -205,7 +205,7 @@ A print palette: off-white stock, black ink, one spot color, silver hardware, an
 - **Numeral** (900, 62% width): week-strip numbers (52px, 40px on phones), version numbers in history (34px), start-list margin numbers (24px). The wordmark and drawer heading use the same cut at 26px uppercase.
 - **Title** (600, 17px): exercise names in the start list; history notes at 16px.
 - **Dose** (800, 85% width, 18px, right-aligned, tabular): sets × reps.
-- **Body** (400, 16px, line-height 1.45): banners, messages, footer (14–15px).
+- **Body** (400, 16px, line-height 1.45): banners, messages.
 - **Label** (700, 75% width, 0.08em tracking, uppercase, 11–20px): bib band (20px, 800, 0.1em), meta line (15px), buttons (14px), version stamp and muscles (13px), week captions and field captions (11–12px).
 
 ### Named Rules
@@ -215,7 +215,7 @@ A print palette: off-white stock, black ink, one spot color, silver hardware, an
 
 ## Layout
 
-A page-width gutter of clamp(16px, 4vw, 56px) frames every band. Desktop: masthead strip, then the stage as a two-column grid (bib at minmax(300px, 0.85fr), start list at 1.4fr, gap clamp(28px, 4vw, 64px)), then the seven-bib strip as an equal 7-column grid with 14px gaps, then the footer. Every bib in the strip shares one scale and one baseline.
+A page-width gutter of clamp(16px, 4vw, 56px) frames every band. Desktop: masthead strip, then the stage as a two-column grid (bib at minmax(300px, 0.85fr), start list at 1.4fr, gap clamp(28px, 4vw, 64px)), then the seven-bib strip as an equal 7-column grid with 14px gaps. Every bib in the strip shares one scale and one baseline.
 
 In edit mode on desktop (861px and up) the bib steps back to a 200px tag so the editable start list gets the width. Below 1180px the row tools drop to their own line.
 

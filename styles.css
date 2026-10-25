@@ -318,13 +318,9 @@ button { font: inherit; color: inherit; }
 .week-bib.is-ride .week-n { margin-bottom: -6px; }
 .week-bib.drop-target { outline: 3px dashed var(--ultra); outline-offset: 3px; }
 
-/* Footer */
-.foot {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
-  padding: 20px var(--gutter) 40px; border-top: 2px solid var(--ink);
-  font-size: 14px; color: var(--mute);
-}
-body.is-editing .foot { padding-bottom: 140px; }
+/* Room below the last band; while editing, clear the fixed save bar */
+.page { padding-bottom: 24px; }
+body.is-editing .page { padding-bottom: 140px; }
 
 /* Version history drawer (non-modal) */
 .history {

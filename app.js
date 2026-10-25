@@ -240,7 +240,6 @@
     renderList(data);
     renderWeek(data);
     renderHistory();
-    $("foot-meta").textContent = [data.frequency, data.difficulty, data.type].filter(Boolean).join(" · ");
     $("edit-btn").hidden = !state.isMember || state.editing;
   }
 
