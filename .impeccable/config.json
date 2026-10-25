@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-25T21:20:25.177Z",
+        "reason": "model triage: flagged <section class=signin> has 18px block / 16-56px inline padding in styles.css; detector measured it while hidden (display:none), and the open panel in mobile-signin.png shows proper inset"
+      }
+    ]
+  }
+}

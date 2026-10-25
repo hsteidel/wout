@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hermann · Road Book</title>
+  <meta name="description" content="Hermann's weekly training: three dumbbell strength stages and three trail rides.">
+  <meta name="theme-color" content="#eceef1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-grip" viewBox="0 0 24 24"><path d="M9 6h.01M15 6h.01M9 12h.01M15 12h.01M9 18h.01M15 18h.01"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 7V4h4v3M6 7l1 13h10l1-13M10 11v5M14 11v5"/></symbol>
+    <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></symbol>
+  </svg>
+
+  <a class="skip" href="#stage">Skip to today's stage</a>
+
+  <header class="mast">
+    <h1 class="brand">Hermann <span>Road Book</span></h1>
+    <button class="stamp" id="stamp" type="button" aria-controls="history" aria-expanded="false">
+      <svg class="ico"><use href="#i-history"/></svg>
+      <span id="stamp-text">Loading…</span>
+    </button>
+    <div class="mast-actions">
+      <button class="btn btn-quiet" id="auth-btn" type="button" aria-controls="signin" aria-expanded="false">Sign in</button>
+      <button class="btn btn-primary" id="edit-btn" type="button" hidden>
+        <svg class="ico"><use href="#i-pencil"/></svg> Edit week
+      </button>
+    </div>
+  </header>
+
+  <section class="signin" id="signin" hidden aria-label="Sign in">
+    <form id="signin-form" class="signin-form">
+      <label for="signin-email">Email</label>
+      <input id="signin-email" type="email" autocomplete="email" required placeholder="you@example.com">
+      <button class="btn btn-primary" type="submit">Email me a sign-in link</button>
+    </form>
+    <div id="signin-status" class="signin-status" hidden>
+      <p id="signin-who"></p>
+      <button class="btn btn-quiet" id="signout-btn" type="button">Sign out</button>
+    </div>
+    <p class="signin-msg" id="signin-msg" role="status"></p>
+  </section>
+
+  <div class="banner" id="banner" role="status" hidden></div>
+
+  <div class="page">
+    <main class="stage" id="stage" tabindex="-1">
+      <div class="bib" id="bib">
+        <span class="pin pin-tl"></span><span class="pin pin-tr"></span>
+        <span class="pin pin-bl"></span><span class="pin pin-br"></span>
+        <div class="bib-num" id="bib-num" aria-hidden="true">—</div>
+        <div class="bib-band" id="bib-band"><span id="bib-day">—</span><span id="bib-stage"></span></div>
+      </div>
+
+      <section class="startlist" aria-labelledby="stage-title">
+        <h2 id="stage-title" class="stage-title">Loading the week…</h2>
+        <p class="stage-meta" id="stage-meta"></p>
+        <div class="title-edit" id="title-edit" hidden>
+          <label for="title-input">Stage name</label>
+          <input id="title-input" type="text" maxlength="60" placeholder="Leave blank to name it after the muscles">
+        </div>
+        <ol class="rows" id="rows"></ol>
+        <p class="removed-note" id="removed" hidden></p>
+        <button class="btn btn-line add" id="add-btn" type="button" hidden>
+          <svg class="ico"><use href="#i-plus"/></svg> Add exercise
+        </button>
+      </section>
+    </main>
+
+    <nav class="week" aria-label="Days of the week">
+      <ol class="week-list" id="week"></ol>
+    </nav>
+  </div>
+
+  <footer class="foot">
+    <p id="foot-meta"></p>
+    <p>Built from a JEFIT routine. Anyone with the link can view; signed-in members can save new versions.</p>
+  </footer>
+
+  <aside class="history" id="history" hidden aria-labelledby="history-title">
+    <div class="history-head">
+      <h2 id="history-title">Versions</h2>
+      <button class="icon-btn" id="history-close" type="button" aria-label="Close versions">
+        <svg class="ico"><use href="#i-x"/></svg>
+      </button>
+    </div>
+    <ol class="history-list" id="history-list"></ol>
+  </aside>
+
+  <div class="savebar" id="savebar" hidden>
+    <div class="savebar-inner">
+      <label class="sr-only" for="note-input">What changed</label>
+      <input id="note-input" type="text" maxlength="500" placeholder="What changed? (optional)">
+      <p class="savebar-msg" id="save-msg" role="status"></p>
+      <div class="savebar-actions">
+        <button class="btn btn-quiet" id="discard-btn" type="button">Discard</button>
+        <button class="btn btn-primary" id="save-btn" type="button" disabled>Save version</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

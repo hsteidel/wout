@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T21:37:10+00:00",
+  "title": "Design System: Hermann Road Book",
+  "extensions": {
+    "colorMeta": {
+      "ultramarine": {
+        "role": "primary",
+        "displayName": "Race Ultramarine",
+        "canonical": "oklch(45.5% 0.24 268)",
+        "tonalRamp": [
+          "oklch(15% 0.108 268)",
+          "oklch(25% 0.168 268)",
+          "oklch(35% 0.216 268)",
+          "oklch(45% 0.24 268)",
+          "oklch(58% 0.204 268)",
+          "oklch(72% 0.144 268)",
+          "oklch(85% 0.084 268)",
+          "oklch(95% 0.029 268)"
+        ]
+      },
+      "ultramarine-deep": {
+        "role": "primary",
+        "displayName": "Deep Ultramarine",
+        "canonical": "oklch(38.5% 0.2 268)",
+        "tonalRamp": [
+          "oklch(15% 0.09 268)",
+          "oklch(25% 0.14 268)",
+          "oklch(35% 0.18 268)",
+          "oklch(45% 0.2 268)",
+          "oklch(58% 0.17 268)",
+          "oklch(72% 0.12 268)",
+          "oklch(85% 0.07 268)",
+          "oklch(95% 0.024 268)"
+        ]
+      },
+      "ultramarine-wash": {
+        "role": "primary",
+        "displayName": "Ultramarine Wash",
+        "canonical": "oklch(93.5% 0.03 275)",
+        "tonalRamp": [
+          "oklch(15% 0.027 275)",
+          "oklch(25% 0.042 275)",
+          "oklch(35% 0.054 275)",
+          "oklch(45% 0.06 275)",
+          "oklch(58% 0.051 275)",
+          "oklch(72% 0.036 275)",
+          "oklch(85% 0.021 275)",
+          "oklch(95% 0.007 275)"
+        ]
+      },
+      "on-ultramarine": {
+        "role": "primary",
+        "displayName": "On Ultramarine",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.0 0)",
+          "oklch(25% 0.0 0)",
+          "oklch(35% 0.0 0)",
+          "oklch(45% 0 0)",
+          "oklch(58% 0.0 0)",
+          "oklch(72% 0.0 0)",
+          "oklch(85% 0.0 0)",
+          "oklch(95% 0.0 0)"
+        ]
+      },
+      "on-ultramarine-mute": {
+        "role": "primary",
+        "displayName": "On Ultramarine Muted",
+        "canonical": "oklch(88.5% 0.055 278)",
+        "tonalRamp": [
+          "oklch(15% 0.036 278)",
+          "oklch(25% 0.056 278)",
+          "oklch(35% 0.072 278)",
+          "oklch(45% 0.08 278)",
+          "oklch(58% 0.068 278)",
+          "oklch(72% 0.048 278)",
+          "oklch(85% 0.028 278)",
+          "oklch(95% 0.01 278)"
+        ]
+      },
+      "race-black": {
+        "role": "neutral",
+        "displayName": "Race Black",
+        "canonical": "oklch(18.5% 0.004 265)",
+        "tonalRamp": [
+          "oklch(15% 0.003 265)",
+          "oklch(25% 0.004 265)",
+          "oklch(35% 0.005 265)",
+          "oklch(45% 0.006 265)",
+          "oklch(58% 0.005 265)",
+          "oklch(72% 0.004 265)",
+          "oklch(85% 0.002 265)",
+          "oklch(95% 0.001 265)"
+        ]
+      },
+      "tyvek": {
+        "role": "neutral",
+        "displayName": "Tyvek",
+        "canonical": "oklch(94.8% 0.004 265)",
+        "tonalRamp": [
+          "oklch(15% 0.003 265)",
+          "oklch(25% 0.004 265)",
+          "oklch(35% 0.005 265)",
+          "oklch(45% 0.006 265)",
+          "oklch(58% 0.005 265)",
+          "oklch(72% 0.004 265)",
+          "oklch(85% 0.002 265)",
+          "oklch(95% 0.001 265)"
+        ]
+      },
+      "sheet-white": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.0 0)",
+          "oklch(25% 0.0 0)",
+          "oklch(35% 0.0 0)",
+          "oklch(45% 0 0)",
+          "oklch(58% 0.0 0)",
+          "oklch(72% 0.0 0)",
+          "oklch(85% 0.0 0)",
+          "oklch(95% 0.0 0)"
+        ]
+      },
+      "mute-graphite": {
+        "role": "neutral",
+        "displayName": "Mute Graphite",
+        "canonical": "oklch(48% 0.014 270)",
+        "tonalRamp": [
+          "oklch(15% 0.007 270)",
+          "oklch(25% 0.011 270)",
+          "oklch(35% 0.014 270)",
+          "oklch(45% 0.016 270)",
+          "oklch(58% 0.014 270)",
+          "oklch(72% 0.01 270)",
+          "oklch(85% 0.006 270)",
+          "oklch(95% 0.002 270)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(87.5% 0.008 265)",
+        "tonalRamp": [
+          "oklch(15% 0.005 265)",
+          "oklch(25% 0.007 265)",
+          "oklch(35% 0.009 265)",
+          "oklch(45% 0.01 265)",
+          "oklch(58% 0.009 265)",
+          "oklch(72% 0.006 265)",
+          "oklch(85% 0.003 265)",
+          "oklch(95% 0.001 265)"
+        ]
+      },
+      "pin-silver": {
+        "role": "neutral",
+        "displayName": "Pin Silver",
+        "canonical": "oklch(79.5% 0.011 265)",
+        "tonalRamp": [
+          "oklch(15% 0.005 265)",
+          "oklch(25% 0.008 265)",
+          "oklch(35% 0.011 265)",
+          "oklch(45% 0.012 265)",
+          "oklch(58% 0.01 265)",
+          "oklch(72% 0.007 265)",
+          "oklch(85% 0.004 265)",
+          "oklch(95% 0.001 265)"
+        ]
+      },
+      "flag-red": {
+        "role": "tertiary",
+        "displayName": "Flag Red",
+        "canonical": "oklch(45% 0.16 28)",
+        "tonalRamp": [
+          "oklch(15% 0.072 28)",
+          "oklch(25% 0.112 28)",
+          "oklch(35% 0.144 28)",
+          "oklch(45% 0.16 28)",
+          "oklch(58% 0.136 28)",
+          "oklch(72% 0.096 28)",
+          "oklch(85% 0.056 28)",
+          "oklch(95% 0.019 28)"
+        ]
+      },
+      "flag-wash": {
+        "role": "tertiary",
+        "displayName": "Flag Wash",
+        "canonical": "oklch(93.5% 0.02 25)",
+        "tonalRamp": [
+          "oklch(15% 0.023 25)",
+          "oklch(25% 0.035 25)",
+          "oklch(35% 0.045 25)",
+          "oklch(45% 0.05 25)",
+          "oklch(58% 0.043 25)",
+          "oklch(72% 0.03 25)",
+          "oklch(85% 0.017 25)",
+          "oklch(95% 0.006 25)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Bib Numeral",
+        "purpose": "The big bib's stage number only."
+      },
+      "headline": {
+        "displayName": "Stage Title",
+        "purpose": "The selected stage's title, uppercase, balanced wrap."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Week-strip numbers, history version numbers, start-list margin numbers, wordmark."
+      },
+      "title": {
+        "displayName": "Exercise Name",
+        "purpose": "Exercise names in the start list; history notes."
+      },
+      "dose": {
+        "displayName": "Dose",
+        "purpose": "Sets × reps, right-aligned, tabular."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Banners, messages, footer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Condensed caps: bib band, meta line, buttons, stamp, muscles, captions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "selection-underline",
+        "value": "0 6px 0 -2px #eceef1, 0 8px 0 -2px #111214",
+        "purpose": "2px ink underline 4px below the selected week bib; a print mark, not a lift."
+      },
+      {
+        "name": "drawer",
+        "value": "-12px 0 32px rgba(17, 18, 20, 0.12)",
+        "purpose": "Version history drawer floating over the page."
+      },
+      {
+        "name": "savebar",
+        "value": "0 -8px 28px rgba(17, 18, 20, 0.18)",
+        "purpose": "Edit-mode save bar pinned to the bottom."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing curve for every transition and keyframe."
+      },
+      {
+        "name": "button-state",
+        "value": "160ms",
+        "purpose": "Button background and color changes."
+      },
+      {
+        "name": "week-bib-lift",
+        "value": "translateY(-3px) over 200ms",
+        "purpose": "Week bib hover."
+      },
+      {
+        "name": "repin-numeral",
+        "value": "520ms clip-path wipe up + translateY(18%)",
+        "purpose": "Bib numeral when the stage changes."
+      },
+      {
+        "name": "repin-band",
+        "value": "600ms clip-path wipe from left",
+        "purpose": "Bib band when the stage changes."
+      },
+      {
+        "name": "drawer-in",
+        "value": "320ms, 24px slide + fade",
+        "purpose": "History drawer entrance (from right; from below on phones)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all animation and transition disabled",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone-tablet",
+        "value": "860px",
+        "purpose": "Max width: week strip on top and scrolls, bib becomes a band-led header, rows stack."
+      },
+      {
+        "name": "desktop",
+        "value": "861px",
+        "purpose": "Min width: two-column stage; edit mode shrinks the bib to a 200px tag."
+      },
+      {
+        "name": "laptop-edit",
+        "value": "1180px",
+        "purpose": "Max width: edit-row tools drop to their own line."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default square ink-edged button; inverts to black on hover.",
+      "html": "<button class=\"ds-btn\">See Wednesday</button>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);font-size:14px;cursor:pointer;transition:background-color 160ms var(--ease-out),color 160ms var(--ease-out);} .ds-btn:hover{background:var(--ink);color:var(--sheet);} .ds-btn:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The ultramarine action: Edit week, Save version, Restore.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 20h4L19 9l-4-4L4 16v4z\"/><path d=\"M13.5 6.5l4 4\"/></svg>Edit week</button>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);font-size:14px;cursor:pointer;transition:background-color 160ms var(--ease-out),color 160ms var(--ease-out);} .ds-btn:hover{background:var(--ink);color:var(--sheet);} .ds-btn:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;} .ds-btn-primary{background:var(--ultra);border-color:var(--ultra);color:var(--on-ultra);} .ds-btn-primary:hover{background:var(--ultra-deep);border-color:var(--ultra-deep);color:var(--on-ultra);}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Edgeless caps button for secondary actions like Sign in and Discard.",
+      "html": "<button class=\"ds-btn ds-btn-quiet\">Sign in</button>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);font-size:14px;cursor:pointer;transition:background-color 160ms var(--ease-out),color 160ms var(--ease-out);} .ds-btn:hover{background:var(--ink);color:var(--sheet);} .ds-btn:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;} .ds-btn-quiet{border-color:transparent;} .ds-btn-quiet:hover{background:transparent;color:var(--ultra);}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Dashed silver full-width control for adding to the start list.",
+      "html": "<button class=\"ds-btn ds-btn-line\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"round\"><path d=\"M12 5v14M5 12h14\"/></svg>Add exercise</button>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-btn{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border:2px solid var(--ink);border-radius:0;background:transparent;color:var(--ink);font-size:14px;cursor:pointer;transition:background-color 160ms var(--ease-out),color 160ms var(--ease-out);} .ds-btn:hover{background:var(--ink);color:var(--sheet);} .ds-btn:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;} .ds-btn-line{border-style:dashed;border-color:var(--pin);color:var(--mute);width:320px;} .ds-btn-line:hover{background:var(--sheet);color:var(--ultra);border-color:var(--ultra);}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square white field with a 2px ink edge and caps label above.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-cap\">Stage name</span><input class=\"ds-input\" placeholder=\"Leave blank to name it after the muscles\"></label>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-field{display:block;width:360px;font-family:var(--font);} .ds-field-cap{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:block;font-size:12px;color:var(--mute);margin-bottom:4px;} .ds-input{width:100%;font:16px var(--font);color:var(--ink);background:var(--sheet);border:2px solid var(--ink);border-radius:0;min-height:44px;padding:0 12px;caret-color:var(--ultra);box-sizing:border-box;} .ds-input::placeholder{color:var(--mute);} .ds-input:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;}"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Wordmark, version stamp, actions, closed by a 2px ink rule.",
+      "html": "<header class=\"ds-mast\"><span class=\"ds-brand\">Hermann <span>Road Book</span></span><button class=\"ds-stamp\"><b>Version 1</b> · Oct 25, 2026 · JEFIT import</button><button class=\"ds-quiet\">Sign in</button></header>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-mast{display:flex;align-items:center;gap:16px;padding:14px 24px;border-bottom:2px solid var(--ink);background:var(--tyvek);font-family:var(--font);} .ds-brand{font-stretch:62%;font-weight:900;font-size:26px;line-height:1;text-transform:uppercase;} .ds-brand span{font-weight:500;} .ds-stamp,.ds-quiet{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;border:0;background:transparent;cursor:pointer;min-height:40px;} .ds-stamp{font-size:13px;color:var(--mute);margin-right:auto;} .ds-stamp b{color:var(--ink);font-weight:800;} .ds-stamp:hover,.ds-quiet:hover{color:var(--ultra);} .ds-quiet{font-size:14px;color:var(--ink);}"
+    },
+    {
+      "name": "Race Bib",
+      "kind": "custom",
+      "refersTo": "bib",
+      "description": "Signature: the stage's white bib with pin holes, display numeral and a weekday band (ultramarine for today, ink otherwise).",
+      "html": "<div class=\"ds-bib\"><span class=\"ds-pin tl\"></span><span class=\"ds-pin tr\"></span><span class=\"ds-pin bl\"></span><span class=\"ds-pin br\"></span><div class=\"ds-bib-num\">03</div><div class=\"ds-bib-band\"><span>Wednesday</span><span>Stage 03</span></div></div>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-pin{position:absolute;border-radius:50%;background:var(--tyvek);border:2px solid var(--pin);} .ds-bib{position:relative;display:flex;flex-direction:column;width:320px;min-height:340px;padding:28px 32px 0;background:var(--sheet);border:2px solid var(--ink);overflow:hidden;font-family:var(--font);box-sizing:border-box;} .ds-bib .ds-pin{width:14px;height:14px;box-sizing:border-box;} .tl{top:14px;left:14px;} .tr{top:14px;right:14px;} .bl{bottom:62px;left:14px;} .br{bottom:62px;right:14px;} .ds-bib-num{flex:1;display:grid;place-items:center;font-stretch:62%;font-weight:900;font-size:180px;line-height:0.8;letter-spacing:-0.02em;color:var(--ink);font-variant-numeric:tabular-nums;} .ds-bib-band{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;display:flex;justify-content:space-between;margin:0 -32px;padding:14px 32px;background:var(--ultra);color:var(--on-ultra);font-size:20px;font-weight:800;letter-spacing:0.1em;}"
+    },
+    {
+      "name": "Week Strip Bib",
+      "kind": "custom",
+      "refersTo": "week-bib",
+      "description": "Signature: same-scale bibs for the week; today ultramarine, selected non-today ink with underline, rides carry the trail line, rest dashed.",
+      "html": "<div class=\"ds-week\"><button class=\"ds-wb is-ride\"><span class=\"ds-pin l\"></span><span class=\"ds-pin r\"></span><span class=\"ds-wd\">Tue</span><span class=\"ds-wn\">02</span><svg class=\"ds-prof\" viewBox=\"0 0 100 22\" preserveAspectRatio=\"none\"><path d=\"M0 19 L14 15 L24 17 L36 7 L46 11 L58 3 L68 10 L80 6 L90 13 L100 11\"/></svg><span class=\"ds-ws\">Ride · 60 min</span></button><button class=\"ds-wb is-sel\"><span class=\"ds-pin l\"></span><span class=\"ds-pin r\"></span><span class=\"ds-wd\">Wed</span><span class=\"ds-wn\">03</span><span class=\"ds-ws\">Strength · 8</span></button><button class=\"ds-wb is-today\"><span class=\"ds-pin l\"></span><span class=\"ds-pin r\"></span><span class=\"ds-wd\">Thu · Today</span><span class=\"ds-wn\">04</span><span class=\"ds-ws\">Strength · 8</span></button><button class=\"ds-wb is-rest\"><span class=\"ds-pin l\"></span><span class=\"ds-pin r\"></span><span class=\"ds-wd\">Sun</span><span class=\"ds-wn\">—</span><span class=\"ds-ws\">Rest</span></button></div>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-pin{position:absolute;border-radius:50%;background:var(--tyvek);border:2px solid var(--pin);} .ds-week{display:flex;gap:14px;padding:8px 0 12px;background:var(--tyvek);} .ds-wb{position:relative;width:120px;height:124px;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:10px 14px 12px;text-align:left;cursor:pointer;background:var(--sheet);border:2px solid var(--ink);border-radius:0;color:var(--ink);font-family:var(--font);transition:transform 200ms var(--ease-out);box-sizing:border-box;} .ds-wb:hover{transform:translateY(-3px);} .ds-wb:focus-visible{outline:3px solid var(--ultra);outline-offset:2px;} .ds-wb .ds-pin{width:7px;height:7px;border-width:1.5px;top:5px;box-sizing:border-box;} .ds-pin.l{left:5px;} .ds-pin.r{right:5px;} .ds-wd,.ds-ws{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;} .ds-wd{font-size:13px;} .ds-ws{font-size:12px;color:var(--mute);letter-spacing:0.04em;} .ds-wn{font-stretch:62%;font-weight:900;font-size:52px;line-height:0.9;font-variant-numeric:tabular-nums;} .ds-prof{width:100%;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;} .is-ride .ds-wn{margin-bottom:-6px;} .is-today{background:var(--ultra);border-color:var(--ultra);color:var(--on-ultra);} .is-today .ds-ws{color:var(--on-ultra-mute);} .is-sel{background:var(--ink);color:var(--sheet);box-shadow:0 6px 0 -2px var(--tyvek),0 8px 0 -2px var(--ink);} .is-sel .ds-ws{color:var(--pin);} .is-today .ds-pin,.is-sel .ds-pin{background:transparent;border-color:currentColor;opacity:0.6;} .is-rest{border-style:dashed;background:transparent;color:var(--mute);}"
+    },
+    {
+      "name": "Start List",
+      "kind": "custom",
+      "refersTo": "start-list-row",
+      "description": "Open hairline-ruled rows: margin numeral, exercise, muscle caps, dose; per-row rest dropped when shared.",
+      "html": "<ol class=\"ds-rows\"><li class=\"ds-row\"><span class=\"ds-n\">01</span><span class=\"ds-name\">Bird Dog</span><span class=\"ds-mus\">Abs</span><span class=\"ds-dose\">3 sets</span></li><li class=\"ds-row\"><span class=\"ds-n\">02</span><span class=\"ds-name\">Dumbbell Incline Bench Press <span class=\"ds-tag\">Changed</span></span><span class=\"ds-mus\">Chest</span><span class=\"ds-dose is-changed\">3 × 8</span></li><li class=\"ds-row\"><span class=\"ds-n\">03</span><span class=\"ds-name\">Dumbbell Incline Bench Row</span><span class=\"ds-mus\">Back</span><span class=\"ds-dose\">3 × 10</span></li></ol>",
+      "css": ":host{--tyvek:#eceef1;--sheet:#ffffff;--ink:#111214;--mute:#5b5e66;--rule:#d2d5db;--pin:#b8bcc4;--ultra:#2436d6;--ultra-deep:#1a2aa8;--ultra-wash:#e4e7fb;--on-ultra:#ffffff;--on-ultra-mute:#d3d8ff;--font:'Archivo','Arial Narrow',sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1);} .ds-rows{list-style:none;margin:0;padding:0;width:640px;font-family:var(--font);color:var(--ink);font-variant-numeric:tabular-nums;} .ds-row{display:grid;grid-template-columns:52px minmax(0,1fr) 140px 112px;align-items:center;column-gap:12px;min-height:52px;padding:8px 0;border-top:1px solid var(--rule);} .ds-row:last-child{border-bottom:1px solid var(--rule);} .ds-n{font-stretch:62%;font-weight:900;font-size:24px;color:var(--ultra);} .ds-name{font-size:17px;font-weight:600;} .ds-mus{font-family:var(--font);font-stretch:75%;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;font-size:13px;color:var(--mute);} .ds-dose{font-stretch:85%;font-weight:800;font-size:18px;text-align:right;white-space:nowrap;} .ds-dose.is-changed{color:var(--ultra);} .ds-tag{display:inline-block;margin-left:8px;padding:1px 6px;vertical-align:2px;font-stretch:75%;font-weight:800;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;background:var(--ultra-wash);color:var(--ultra-deep);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Stage Race Road Book",
+    "overview": "The week is a stage race. Each training day is a numbered stage: a white Tyvek bib pinned to an off-white ground, with its start list printed beside it like a road book. The strip of seven same-scale bibs shows the race's rhythm, alternating strength stages and trail rides with a dashed rest day, before a single caption is read.\n\nThe world is printed and flat. Race-black ink does the work; one ultramarine marks today and the primary action. A single condensed grotesk family (Archivo, driven by its width axis) carries everything at stepped sizes, from 300px bib numerals down to 11px tags, with tabular figures throughout so doses and stage numbers sit in clean columns. Paper is the only material: sheets have a hard 2px black edge and square corners, pin holes are drawn as silver rings, rows are separated by hairlines and never boxed.\n\nDensity is a road book's: generous at the top (one big bib, one big stage title), tight and columnar in the start list. Motion is a single gesture, re-pinning the bib when the stage changes.",
+    "keyCharacteristics": [
+      "Tyvek ground, white bib sheets, race-black ink, one ultramarine.",
+      "One family, Archivo, at stepped sizes; width axis from 62% (numerals, titles) through 75% (labels) to 85% (doses).",
+      "Square corners everywhere; the only circles are pin holes.",
+      "Bibs are sheets with a 2px ink edge and pin holes; start-list rows are hairline-ruled, never enclosed.",
+      "Flat; depth only for the two overlays that float over the page."
+    ],
+    "rules": [
+      {
+        "name": "The Today Rule",
+        "body": "Among stage markers, ultramarine means today and nothing else. The bib band is ultramarine only when the stage shown is today; any other selected stage gets a race-black band. In the week strip today's bib is filled ultramarine, and the selected non-today bib is filled race-black. Stage selection is never shown in ultramarine.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Spot Color Rule",
+        "body": "Ultramarine is the only chromatic color outside error states. It marks today, the primary action, focus, and change; it is never a background wash for a section or a decorative accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Archivo only, at stepped sizes. No second face, no in-between sizes invented per component.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Figures are tabular everywhere (set on the body), so stage numbers, doses and dates align in columns.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shared Rest Rule",
+        "body": "When every exercise shares the rest already stated in the meta line, the per-row rest column is dropped rather than repeated.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "Depth on the page is edge and fill, never shadow; shadows belong only to the drawer and save bar that overlay it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Pin Rule",
+        "body": "Every bib carries pin holes, at every size and state.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Open Row Rule",
+        "body": "Start-list and history rows are separated by 1px hairlines and are never enclosed in boxes or cards. Bibs are the only sheets; controls (buttons, inputs) carry the 2px ink edge as instruments, not containers.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** reserve ultramarine for today among stage markers; show any other selected stage in race-black.",
+      "**Do** give every bib pin holes, at every size.",
+      "**Do** mark ride stages in the week strip with the same drawn trail line, a symbol, not data.",
+      "**Do** separate rows with 1px hairlines (hairline) and leave them open.",
+      "**Do** drop the per-row rest when every exercise shares the rest already stated in the meta line.",
+      "**Do** build hierarchy from Archivo's width axis and weight at the stepped sizes above, with tabular figures.",
+      "**Do** keep every corner square except pin holes."
+    ],
+    "donts": [
+      "**Don't** enclose start-list or history rows in boxes or cards.",
+      "**Don't** use ultramarine to show stage selection, or as a decorative fill or section wash.",
+      "**Don't** draw the trail line from real elevation data or vary it per ride.",
+      "**Don't** add a second typeface or round any corner.",
+      "**Don't** put shadows on sheets; only the drawer and save bar float.",
+      "**Don't** use flag red for anything but errors."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300..900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--red:#e2001a;--rule:#cfcfca;--tint:#f3f3f0;--mute:#707070}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:#fff;color:var(--ink);font-family:Overpass,sans-serif}
+header{display:flex;align-items:stretch;border-bottom:3px solid var(--ink)}
+.line{background:var(--red);color:#fff;font-weight:900;font-size:34px;padding:18px 28px;letter-spacing:-.01em}
+.ttl{padding:16px 28px;flex:1}.ttl h1{font-size:30px;font-weight:800;line-height:1.05}.ttl p{font-size:15px;color:var(--mute);margin-top:4px}
+.valid{padding:18px 28px;font-size:13px;text-align:right;color:var(--mute);line-height:1.5}
+.grid{display:grid;grid-template-columns:1fr 430px;height:calc(900px - 84px)}
+table{border-collapse:collapse;width:100%;font-size:15px;font-variant-numeric:tabular-nums}
+th{font-weight:800;font-size:14px;text-transform:uppercase;letter-spacing:.06em;padding:14px 10px;border-bottom:2px solid var(--ink);text-align:left}
+td{padding:9px 10px;border-bottom:1px solid var(--rule);vertical-align:top;height:44px}
+td:first-child,th:first-child{padding-left:28px;color:var(--mute);width:60px;font-weight:700}
+.on{background:var(--red);color:#fff}
+th.on{border-bottom-color:var(--red)}
+td.on{border-bottom-color:#ff6b78;font-weight:700}
+.bike{color:var(--mute);font-style:italic}
+.pane{border-left:3px solid var(--ink);padding:26px 30px;background:var(--tint)}
+.pane small{font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.pane h2{font-size:42px;font-weight:900;line-height:1;margin:6px 0 4px}
+.pane p{font-size:15px;color:var(--mute);margin-bottom:18px}
+.stop{display:grid;grid-template-columns:22px 1fr auto;gap:12px;align-items:start;padding:8px 0;position:relative;font-size:15px}
+.stop i{width:14px;height:14px;border-radius:50%;border:3px solid var(--red);background:#fff;margin-top:3px;position:relative;z-index:1}
+.stop:not(:last-child):before{content:"";position:absolute;left:6px;top:18px;bottom:-12px;width:3px;background:var(--red)}
+.stop b{font-weight:700}.stop span{color:var(--mute);font-size:13px;display:block}
+.stop em{font-style:normal;font-weight:800;font-variant-numeric:tabular-nums}
+</style></head><body>
+<header><div class="line">W6</div><div class="ttl"><h1>Hermann · Weekly Timetable</h1><p>Dumbbell strength Mon · Wed · Fri — Mountain biking Tue · Thu · Sat — Sunday no service</p></div><div class="valid">Intermediate<br>3 sets · 60 s rest unless noted</div></header>
+<div class="grid">
+<table>
+<tr><th>Stop</th><th>Mon</th><th>Tue</th><th class="on">Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
+<tr><td>01</td><td>Reverse Curl</td><td class="bike">Mtn bike 60′</td><td class="on">Bird Dog</td><td class="bike">Mtn bike 60′</td><td>One-Arm Row</td><td class="bike">Mtn bike 60′</td><td class="bike">—</td></tr>
+<tr><td>02</td><td>Romanian Deadlift</td><td></td><td class="on">Incline Bench Press</td><td></td><td>Hammer Curl</td><td></td><td></td></tr>
+<tr><td>03</td><td>Bench Press</td><td></td><td class="on">Incline Bench Row</td><td></td><td>Reverse Fly</td><td></td><td></td></tr>
+<tr><td>04</td><td>One-Arm Row</td><td></td><td class="on">Seated Shoulder Press</td><td></td><td>Shoulder Shrug</td><td></td><td></td></tr>
+<tr><td>05</td><td>Decline Bench Press</td><td></td><td class="on">Fly</td><td></td><td>Air Bike</td><td></td><td></td></tr>
+<tr><td>06</td><td>Lateral Raise</td><td></td><td class="on">Tricep Extension</td><td></td><td>Farmers Carry</td><td></td><td></td></tr>
+<tr><td>07</td><td>Preacher Curl</td><td></td><td class="on">Wrist Curl</td><td></td><td>Elevated Push-Up</td><td></td><td></td></tr>
+<tr><td>08</td><td>Side Bend</td><td></td><td class="on">Plank Knee Drive</td><td></td><td>Seated Bicep Curl</td><td></td><td></td></tr>
+</table>
+<aside class="pane"><small>Now boarding · Wednesday</small><h2>Push &amp; core</h2><p>8 stops · about 45 min</p>
+<div class="stop"><i></i><div><b>Bird Dog</b><span>Abs</span></div><em>3 sets</em></div>
+<div class="stop"><i></i><div><b>Incline Bench Press</b><span>Chest</span></div><em>8·8·8</em></div>
+<div class="stop"><i></i><div><b>Incline Bench Row</b><span>Back</span></div><em>10·10·10</em></div>
+<div class="stop"><i></i><div><b>Seated Shoulder Press</b><span>Shoulders</span></div><em>10·10·10</em></div>
+<div class="stop"><i></i><div><b>Fly</b><span>Chest</span></div><em>10·10·10</em></div>
+<div class="stop"><i></i><div><b>Tricep Extension</b><span>Triceps</span></div><em>10·10·10</em></div>
+<div class="stop"><i></i><div><b>Wrist Curl (Palms Down)</b><span>Forearms</span></div><em>8·8·8</em></div>
+<div class="stop"><i></i><div><b>Plank with Knee Drive</b><span>Abs</span></div><em>3 sets</em></div>
+</aside></div>
+</body></html>

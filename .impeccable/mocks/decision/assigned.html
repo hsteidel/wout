@@ -1,0 +1,59 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+:root{--tyvek:#f2f1ec;--ink:#111214;--ultra:#2436d6;--pin:#b8bcc4;--mute:#6b6e75}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--tyvek);color:var(--ink);font-family:Archivo,sans-serif}
+.mast{display:flex;justify-content:space-between;align-items:baseline;padding:22px 56px;border-bottom:2px solid var(--ink);font-stretch:75%;text-transform:uppercase;letter-spacing:.06em;font-weight:700;font-size:15px}
+.mast b{font-size:22px;font-weight:900;letter-spacing:.02em}
+.main{display:grid;grid-template-columns:560px 1fr;gap:56px;padding:40px 56px 0}
+.bib{position:relative;background:#fff;border:2px solid var(--ink);height:470px;padding:28px 32px;display:flex;flex-direction:column}
+.bib:before,.bib:after,.bib i:before,.bib i:after{content:"";position:absolute;width:14px;height:14px;border-radius:50%;background:var(--tyvek);border:2px solid var(--pin)}
+.bib:before{top:14px;left:14px}.bib:after{top:14px;right:14px}.bib i:before{bottom:14px;left:14px}.bib i:after{bottom:14px;right:14px}
+.band{background:var(--ultra);color:#fff;margin:6px -32px 0;padding:10px 32px;font-stretch:70%;font-weight:800;font-size:20px;letter-spacing:.08em;text-transform:uppercase;display:flex;justify-content:space-between}
+.num{font-weight:900;font-stretch:62%;font-size:300px;line-height:.82;letter-spacing:-.02em;margin-top:18px}
+.bib small{font-stretch:75%;font-weight:700;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+h1{font-stretch:62%;font-weight:900;font-size:64px;line-height:.95;text-transform:uppercase}
+.sub{font-stretch:80%;font-size:17px;color:var(--mute);margin:10px 0 22px;letter-spacing:.04em;text-transform:uppercase;font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:17px}
+th{font-stretch:75%;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);text-align:left;padding:0 0 8px}
+td{padding:9px 0;border-top:1px solid #d6d5cf;font-variant-numeric:tabular-nums}
+td.n{width:44px;font-stretch:62%;font-weight:900;font-size:22px;color:var(--ultra)}
+td.ex{font-weight:600}
+td.m{color:var(--mute);font-stretch:85%;width:130px}
+td.r{text-align:right;width:110px;font-stretch:80%;font-weight:700}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:14px;padding:30px 56px}
+.d{border:2px solid var(--ink);background:#fff;padding:10px 14px;height:118px;display:flex;flex-direction:column;justify-content:space-between}
+.d span{font-stretch:75%;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.d b{font-stretch:62%;font-weight:900;font-size:52px;line-height:.9}
+.d em{font-style:normal;font-size:13px;color:var(--mute);font-stretch:85%}
+.d.on{background:var(--ultra);color:#fff;border-color:var(--ultra)}.d.on em{color:#d6dbff}
+.d.rest{border-style:dashed;background:transparent;color:var(--mute)}
+</style></head><body>
+<div class="mast"><b>Hermann · Road Book</b><span>6 stages / week · Intermediate · Dumbbells + trail</span><span>Today: Stage 03</span></div>
+<div class="main">
+ <div class="bib"><i></i><small>Stage</small><div class="num">03</div><div style="flex:1"></div><div class="band"><span>Wednesday</span><span>8 exercises</span></div></div>
+ <div>
+  <h1>Upper body push &amp; core</h1>
+  <p class="sub">3 sets each · 60 sec rest between sets</p>
+  <table><tr><th></th><th>Exercise</th><th>Muscle</th><th style="text-align:right">Reps</th></tr>
+  <tr><td class="n">01</td><td class="ex">Bird Dog</td><td class="m">Abs</td><td class="r">3 sets</td></tr>
+  <tr><td class="n">02</td><td class="ex">Dumbbell Incline Bench Press</td><td class="m">Chest</td><td class="r">8 · 8 · 8</td></tr>
+  <tr><td class="n">03</td><td class="ex">Dumbbell Incline Bench Row</td><td class="m">Back</td><td class="r">10 · 10 · 10</td></tr>
+  <tr><td class="n">04</td><td class="ex">Dumbbell Seated Shoulder Press</td><td class="m">Shoulders</td><td class="r">10 · 10 · 10</td></tr>
+  <tr><td class="n">05</td><td class="ex">Dumbbell Fly</td><td class="m">Chest</td><td class="r">10 · 10 · 10</td></tr>
+  <tr><td class="n">06</td><td class="ex">Dumbbell Tricep Extension</td><td class="m">Triceps</td><td class="r">10 · 10 · 10</td></tr>
+  <tr><td class="n">07</td><td class="ex">Dumbbell Wrist Curl (Palms Down)</td><td class="m">Forearms</td><td class="r">8 · 8 · 8</td></tr>
+  <tr><td class="n">08</td><td class="ex">Plank with Alternating Knee Drive</td><td class="m">Abs</td><td class="r">3 sets</td></tr></table>
+ </div>
+</div>
+<div class="week">
+ <div class="d"><span>Mon</span><b>01</b><em>Strength · 8</em></div>
+ <div class="d"><span>Tue</span><b>02</b><em>Mountain bike · 60 min</em></div>
+ <div class="d on"><span>Wed</span><b>03</b><em>Strength · 8</em></div>
+ <div class="d"><span>Thu</span><b>04</b><em>Mountain bike · 60 min</em></div>
+ <div class="d"><span>Fri</span><b>05</b><em>Strength · 8</em></div>
+ <div class="d"><span>Sat</span><b>06</b><em>Mountain bike · 60 min</em></div>
+ <div class="d rest"><span>Sun</span><b>—</b><em>Rest day</em></div>
+</div>
+</body></html>

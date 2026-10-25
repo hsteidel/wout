@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+.impeccable/tmp/
+.impeccable/review/
+source/
+.omc/
+.impeccable/hook.cache.json
