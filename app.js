@@ -974,9 +974,12 @@
     });
     if (error) {
       msg.classList.add("is-error");
-      msg.textContent = /rate|seconds/i.test(error.message)
-        ? "Too many links requested. Wait a minute, then try again."
-        : `Couldn't send the link: ${error.message}`;
+      // Supabase's built-in email sender allows only a couple of emails per hour for the whole project.
+      msg.textContent = error.code === "over_email_send_rate_limit" || /email rate limit/i.test(error.message)
+        ? "The email limit is reached (Supabase's free sender allows about 2 sign-in emails an hour). Try again in an hour; a link already in your inbox still works if it's under an hour old."
+        : /rate|seconds/i.test(error.message)
+          ? "Too many links requested. Wait a minute, then try again."
+          : `Couldn't send the link: ${error.message}`;
       return;
     }
     msg.textContent = `Check ${email} for a sign-in link. Open it on this device.`;
