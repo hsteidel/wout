@@ -974,9 +974,9 @@
     });
     if (error) {
       msg.classList.add("is-error");
-      // Supabase's built-in email sender allows only a couple of emails per hour for the whole project.
+      // Supabase caps sign-in emails per hour for the whole project (Authentication → Rate Limits).
       msg.textContent = error.code === "over_email_send_rate_limit" || /email rate limit/i.test(error.message)
-        ? "The email limit is reached (Supabase's free sender allows about 2 sign-in emails an hour). Try again in an hour."
+        ? "Too many sign-in emails were sent in the last hour. Try again a bit later."
         : /rate|seconds/i.test(error.message)
           ? "Too many links requested. Wait a minute, then try again."
           : `Couldn't send the link: ${error.message}`;
